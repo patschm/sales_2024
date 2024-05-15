@@ -16,7 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ACME.Database.EntityFramework\ACME.Database.EntityFramework.csproj" />
-    <ProjectReference Include="..\ACME.Infrastructure.Reviews\ACME.Infrastructure.Reviews.csproj" />
+    <ProjectReference Include="..\ACME.Application.Reviews\ACME.Application.Reviews.csproj" />
   </ItemGroup>
 
 </Project>

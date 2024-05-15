@@ -1,7 +1,7 @@
 ﻿using System.Reflection;
 
 
-namespace ACME.Infrastructure.Reviews;
+namespace ACME.Application.Reviews;
 
 public static class AssemblyReference
 {

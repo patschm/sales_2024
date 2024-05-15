@@ -6,7 +6,7 @@ using ACME.Database.EntityFramework.Repositories;
 using ACME.Domain.Reviews.Exceptions;
 using ACME.Domain.Reviews.Repositories;
 using ACME.Domain.Reviews.ValueObjects;
-using ACME.Infrastructure.Reviews.Commands;
+using ACME.Application.Reviews.Commands;
 using FluentValidation;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -24,7 +24,7 @@ builder.Services.AddScoped<IReviewWriteRepository, ReviewWriteRepository>();
 //builder.Services.AddScoped<IValidator<ReviewDTO>, ReviewValidator>();
 builder.Services.AddMediatR(conf => {
     conf.RegisterServicesFromAssemblies(
-        ACME.Infrastructure.Reviews.AssemblyReference.Assembly
+        ACME.Application.Reviews.AssemblyReference.Assembly
         );
 });
 builder.Services.AddEndpointsApiExplorer();

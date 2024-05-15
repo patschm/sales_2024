@@ -2,7 +2,7 @@
 using ACME.Domain.Reviews.ValueObjects;
 using MediatR;
 
-namespace ACME.Infrastructure.Reviews.Commands;
+namespace ACME.Application.Reviews.Commands;
 
 public record ReadReviewsByProductCommand(Product Product, ReviewParameters Parameters) :IRequest<IEnumerable<Review>>;
 

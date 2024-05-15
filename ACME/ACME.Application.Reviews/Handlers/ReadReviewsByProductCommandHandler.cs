@@ -1,9 +1,9 @@
 ﻿using ACME.Domain.Reviews.Entities;
 using ACME.Domain.Reviews.Repositories;
-using ACME.Infrastructure.Reviews.Commands;
+using ACME.Application.Reviews.Commands;
 using MediatR;
 
-namespace ACME.Infrastructure.Reviews.Handlers;
+namespace ACME.Application.Reviews.Handlers;
 
 public class ReadReviewsByProductCommandHandler : IRequestHandler<ReadReviewsByProductCommand, IEnumerable<Review>>
 {
