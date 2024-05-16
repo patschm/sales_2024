@@ -1,0 +1,1 @@
+Server=tcp:allstuds.database.windows.net,1433;Initial Catalog=ProductCatalog;Persist Security Info=False;User ID=mien;Password=Test_1234567;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
